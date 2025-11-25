@@ -1,0 +1,51 @@
+Рекомендуемые сообщения коммитов (формат: <type>: <short summary>)
+
+1) initial commit
+   header: build: initial commit
+   body: Добавлены README.md, CHANGELOG.md и базовая структура проекта согласно инструкции.
+
+2) Задание 3 — .gitignore
+   header: build: add .gitignore
+
+   body:
+   Добавлен файл .gitignore, игнорирующий каталоги logs/ и build/.
+   Это предотвращает попадание временных сборок и логов в индекс репозитория.
+
+3) Задание 4 — index.html и style.css (часть 1)
+   header: feat: add index.html
+
+   body:
+   Добавлена базовая HTML-разметка (index.html) и подключение CSS.
+   В дальнейшем добавлен файл style.css в assets/css.
+
+4) Задание 4 — добавление style.css (часть 2)
+   header: feat: add assets/css/style.css
+
+   body:
+   Добавлены базовые переменные и сброс стилей, реализованы стили для шапки, основной части и футера.
+
+5) Задание 5 — main.js
+   header: feat: add assets/js/main.js
+
+   body:
+   Добавлен скрипт main.js, показывающий приветствие посетителю и логирующий событие.
+
+6) Задание 6 — подключение шрифта
+   header: feat: add google font Sixtyfour Convergence
+
+   body:
+   Подключён шрифт Sixtyfour Convergence из Google Fonts и применён в стилях.
+
+7) Задание 7-9 — структура и контент
+   header: feat: add header, main and footer sections
+
+   body:
+   Добавлена разметка и стили для шапки, основной части и футера сайта.
+
+Теги:
+- v1.0: после завершения задания 4 (index + style)
+- v2.0: после завершения задания 9 (полный сайт)
+
+Примечание:
+Заголовки и тела коммитов оформлены согласно гайдлайну: повелительное наклонение, 
+заголовок без точки, body при наличии >= 20 символов и строки не длиннее 100 символов.
